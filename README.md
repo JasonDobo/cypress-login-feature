@@ -8,7 +8,7 @@ From a tooling perspective I had a number of different options, [selenium](https
 This section details how to setup the project in order to run the framework and tests. However for reference the setup instructions for the [project dependencies](#dependencies) and general instructions on how to [setup a new cypress project](#cypress-initial-setup) have been included in the appendix. These are for reference and to help with creating new projects, but should not be needed to run the test scenarios. 
 
 ## Setup
-The following steps detail how to setup the project to run the test scenarios. This assumes you have downloaded the [project](https://github.com/JasonDobo/cypress-cucumber-example) either via git clone or by downloading the zip file. 
+The following steps detail how to setup the project to run the test scenarios. This assumes you have downloaded the [project](https://github.com/JasonDobo/cypress-login-feature) either via git clone or by downloading the zip file. 
 - clone the repository into a local folder or unzip an archive
 - Make sure you have `node.js` installed and setup on your machine if not see [here](#dependencies) 
 - Run the command `npm install` this will install all dependencies
