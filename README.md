@@ -84,7 +84,7 @@ While writing these tests I identified a number of points I would've liked to ch
 
 # Appendix
 
-## Dependencies
+### Dependencies
 To begin with we need to prepare the MacBook's environment to be able to run node js. I have detailed my developer setup here for reference, though in theory if your Mac is already setup, you can skip this section. 
 - Install homebrew using the terminal command `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` 
     - This command will install homebrew, a package manager got Mac, the version installed was `3.6.14`
@@ -92,7 +92,7 @@ To begin with we need to prepare the MacBook's environment to be able to run nod
     - This installs `Node.js`, npm version `8.19.3` and node version `v19.2.0`
 - For my IDE I decided to use [Visual Studio](https://visualstudio.microsoft.com/vs/mac/) for Mac. Though any should IDE capable of editing javascript should be sufficient. 
 
-## Cypress Initial Setup
+### Cypress Initial Setup
 The steps below are for reference and detail how to setup cypress with cucumber for a new project. This is for reference only and also should not be required.
 - Create a empty folder, in which you wish to create a cypress project and navigate to the folder in terminal.
 - Run `npm init` to initialize `node.js` and create a `package.json` 
@@ -103,7 +103,7 @@ The steps below are for reference and detail how to setup cypress with cucumber 
     - `npm install -D @badeball/cypress-cucumber-preprocessor` version `15.0.0`
     - `npm install -D @bahmutov/cypress-esbuild-preprocessor` version `2.1.5`
 
-# Environment Versions
+### Environment Versions
 I have included my computer setup and software versions here as reference. 
 - `2.6 GHz 6-Core Intel Core i7` running `13.0.1 (22A400)`
 - Cypress version `12.0.2`
