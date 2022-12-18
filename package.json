@@ -1,0 +1,19 @@
+{
+  "name": "cypress-login-feature",
+  "version": "1.0.0",
+  "description": "This is a set of cypress test scenarios for the websites login feature. The test scenarios in the repo are intended to tests the front end e2e journeys, api requests and ui with mocked data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Dobo",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.1.0"
+  },
+  "cvpress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
