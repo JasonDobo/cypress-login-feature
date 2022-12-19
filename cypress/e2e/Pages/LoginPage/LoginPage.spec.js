@@ -126,6 +126,22 @@ class LoginPage {
         cy.contains('Sign up').should("be.visible")
             .click()
     }
+
+    mockLogin() {
+        cy.intercept('POST', '/login', {
+            statusCode: 200,
+            body: {
+                "success": true,
+                "forward" : "/welcome/320073?forward=&isLogin=True",
+                "firstName": "Jason",
+                "error": null
+            },
+          })
+    
+          cy.intercept('/welcome/*', {
+            fixture: 'welcome.html',
+          })
+    }
 }
 
 const loginpage = new LoginPage();

@@ -34,7 +34,7 @@ To start with I completed exploratory testing of the login feature on the fronte
 Each test scenario is detailed in more detail in the `feature` files, but for here I've listed the tests I created for the exercise.
 
 ### E2E Scenarios
-- Navigateing to login page
+- Navigating to login page
     - Directly using url
     - From main site and home page
     - And from redirect
